@@ -1,0 +1,20 @@
+{
+  "name": "parcel-react-boilerplate",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ivanmalagon/parcel-react-boilerplate.git"
+  },
+  "author": "Ivan Malagon",
+  "bugs": {
+    "url": "https://github.com/ivanmalagon/parcel-react-boilerplate/issues"
+  },
+  "homepage": "https://github.com/ivanmalagon/parcel-react-boilerplate#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
+  }
+}
