@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "dev": "parcel index.html"
+    "dev": "parcel index.html",
+    "lint": "eslint src/**"
   },
   "repository": {
     "type": "git",
@@ -15,7 +16,12 @@
   },
   "homepage": "https://github.com/ivanmalagon/parcel-react-boilerplate#readme",
   "devDependencies": {
-    "parcel-bundler": "^1.12.4"
+    "eslint": "^6.6.0",
+    "eslint-config-prettier": "^6.5.0",
+    "eslint-plugin-prettier": "^3.1.1",
+    "eslint-plugin-react": "^7.16.0",
+    "parcel-bundler": "^1.12.4",
+    "prettier": "^1.18.2"
   },
   "dependencies": {
     "react": "^16.11.0",
